@@ -13,9 +13,17 @@ import urllib
 #urllib.urlopen("http://www.google.com.pk")
 
 
+# To use the module bar, we can import it in two ways:
+# import foo.bar
+# or:
+# from foo import bar
+
+
+
 # Exploring built-in modules
 # Two very important functions come in handy when exploring modules in Python - the dir and help functions.
 
 # We can look for which functions are implemented in each module by using the dir function:
-#dir(urllib)
-#help(urllib.urlopen)
+print dir(urllib)
+
+help(urllib.urlopen)
